@@ -1,10 +1,16 @@
+.cajaiconos{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+} 
+
 h1{
     text-align: center;
-    color: #131311d8;
+    color: #40304ed8;
     height: 130px;
     font-family: 'Great Vibes', cursive;
     font-weight: 400;
     font-size: 125px;
     margin: 10px 0px 30px 0px;
-    background-color: #450ce241 ;
+    background-color: #58575541 ;
 }

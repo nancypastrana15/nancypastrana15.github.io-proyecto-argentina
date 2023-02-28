@@ -1,34 +1,46 @@
 
 body{
-    background-color: antiquewhite;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 20px;
-    border: 100px;
-    padding: 70px;
-    margin: 10px;
+
 }
 
 h1 {
-    border: 1px solid black;
+    border: 1px solid #a60ab9;
     font-weight: bold;
     font-family: 'sans-serif';
-    color: gray;
+    color: violet;
+}
+
+div {
+    display: block;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 #Diseño{
    text-align: center; 
-   font-weight: 200;
    color: blueviolet;
    border: 0;
    margin: 0;
+   font-family: cursive;
 }
+
 
 #imagen{
     border: solid #c91616da;
-    height: 300px;
+    height: 102px;
     vertical-align: middle;
-    margin: 0px 25px;
+    margin: 0px 400px;
 }
 
 #Contacto{

@@ -1,17 +1,15 @@
 
-
-
-
-.Información relevante{
-    column-count: 2;
-    column-gap: 100px;
-    column-rule: 5px double #c7060685;
+h1 {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px;
+    font-weight: bold;
+    color: gray;
 }
-
 
 #imagen{
     border: solid #c91616da;
-    height: 600px;
+    height: 400px;
     vertical-align: middle;
     margin: 0px 25px;
 }

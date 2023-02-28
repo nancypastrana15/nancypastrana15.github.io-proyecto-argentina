@@ -13,5 +13,8 @@ h1{
     background-color: #450ce241 ;
 }
 
-
-
+.Información relevante{
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 5px double #0e919185;
+}

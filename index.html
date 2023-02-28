@@ -13,23 +13,56 @@
         <h1>Elena Jacobs</h1>
     </header>
         
-    <h2> id="Diseñadora gráfica">Diseñadora gráfica</h2>
+    <h2> Diseñadora gráfica</h2>
             
     <div class="Información relevante">
             
+        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="imagen de cv" id="imagen">
         
-        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="imagen de cv">
-        </div>
-        <div></div>
-        </section>
-    
-
-    </section>
-
-
-    
-
-    
-     
+        <h3>Datos personales</h3>
+        <ul>
+          <li>Fecha de Nacimiento: 15-03-1990</li>
+          <li>Localidad: CABA- Argentina</li> 
+        </ul>
+        <h4>Habilidades</h4>
+        <ul>
+            <li>Responsable</li>
+            <li>Predispuesta al trabajo</li>
+            <li>Resolutiva y eficiente</li>
+            <li>Creativa</li>
+            <li>Organizada</li>
+        </ul>
+        <h5>Educación</h5>
+        <ul>
+            <li> Da Vinci.Diseñador Gráfico Artístico Digital. 2020></li>
+            <li>Da Vinci. Técnico Superior en Diseño y Programación Web. 2015</li>
+            <li>Colegio Don Bosco. Comercial . 2008</li>
+        </ul>
+        <h6>Experiencia laboral</h6>
+        <h7>Diseñadora gráfica. 2022-Actualmente</h7>
+        <ul>
+           <li>publicaciones online</li>
+           <li>packaging</li>
+           <li>logos de productos y empresas</li>
+        </ul>
+        <h7>Asistente de Diseñador Gráfico. 2017-2020</h7>
+        <ul>
+            <li>ilustración digital</li>
+            <li>carteles impresos y banners digitales</li>
+        </ul>
+        
+        
 </body>
+<footer>
+    <button id="Contacto" onclick="MostrarnúmeroTelefonico()">Contacto</button>
+    <p id="telefono"></p>
+
+    <script>
+        function MostrarnúmeroTelefonico(){
+           document.getElementById("telefono").innerHTML = "011-4176-9090 // Elena Jacobs";
+        }
+   </script>
+</footer>
+
+
 </html>
